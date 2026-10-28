@@ -1,0 +1,579 @@
+[
+  {
+    "slug": "fnirs-eye-tracking-complementarity",
+    "title": "Task-sensitive fNIRS–eye-tracking complementarity for adaptive intelligent systems: An attribution–sufficiency diagnostic framework",
+    "authors": [
+      "Lina Xu",
+      "Bojing Hou",
+      "Yuqi Liang",
+      "Xiaofu Jin",
+      "Haotian Bai",
+      "Yuyang Wang",
+      "Luwen Yu"
+    ],
+    "year": "2027",
+    "status": "Published online 2026",
+    "venue": "Expert Systems with Applications",
+    "details": "333, 134296 · Published online 2026",
+    "doi": "10.1016/j.eswa.2026.134296",
+    "selected": false,
+    "contribution": "Frames fNIRS and eye tracking as task-sensitive, complementary evidence for evaluating adaptive intelligent systems.",
+    "topics": [
+      "multimodal sensing",
+      "model evaluation",
+      "adaptive systems"
+    ],
+    "project": "multimodal",
+    "firstAuthor": true,
+    "image": "ESWA_tasks_setup",
+    "group": "journal",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false,
+    "metrics": {
+      "jif": "9.4",
+      "jifYear": 2025,
+      "jcrQuartile": "Q1",
+      "jcrDataYear": 2025,
+      "jifSource": "https://iris.urv.cat/en/ipublic/source/11076",
+      "quartileSource": "https://researchcloud.net/journal/0957-4174",
+      "casTop": true,
+      "casEdition": "2025 upgraded edition",
+      "casSource": "https://www.crushsci.com/journal/1533",
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "slug": "multimodal-colour-intelligent-rehabilitation",
+    "title": "Multimodal colour modulation for cognitive enhancement in intelligent rehabilitation: A systematic review and translational guidance",
+    "authors": [
+      "Lina Xu",
+      "Xingkai Wang",
+      "Wenan Li",
+      "Yuyang Jiang",
+      "Chen Cheng",
+      "Zhenhong Li",
+      "Yuyang Wang",
+      "Luwen Yu"
+    ],
+    "year": "2026",
+    "status": "Published",
+    "venue": "Journal of NeuroEngineering and Rehabilitation",
+    "details": "23, 208",
+    "doi": "10.1186/s12984-026-01991-y",
+    "selected": true,
+    "contribution": "Synthesises multimodal colour-modulation evidence and translates it into guidance for intelligent rehabilitation systems.",
+    "topics": [
+      "intelligent rehabilitation",
+      "systematic review",
+      "colour cognition"
+    ],
+    "project": "evidence",
+    "firstAuthor": true,
+    "image": "Q03_figure3",
+    "group": "journal",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": true,
+    "metrics": {
+      "jif": "6.0",
+      "jifYear": 2025,
+      "jcrQuartile": "Q1",
+      "jcrDataYear": 2025,
+      "jifSource": "https://link.springer.com/journal/12984",
+      "quartileSource": "https://www.ablesci.com/journal/detail?id=DXbG1p",
+      "casTop": true,
+      "casEdition": "2025 upgraded edition",
+      "casSource": "https://www.ablesci.com/journal/detail?id=DXbG1p",
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "slug": "low-saturation-working-memory",
+    "title": "Decoding the impact of low-saturation color background on working memory: Insights from fNIRS, eye tracking, and subjective assessments",
+    "authors": [
+      "Lina Xu",
+      "Xingkai Wang",
+      "Xiaofu Jin",
+      "Chen Cheng",
+      "Luwen Yu"
+    ],
+    "year": "2026",
+    "status": "Published",
+    "venue": "Color Research & Application",
+    "details": "51(1), e70040",
+    "doi": "10.1002/col.70040",
+    "selected": true,
+    "contribution": "Evaluates working-memory responses to low-saturation backgrounds across fNIRS, eye tracking, and subjective assessment.",
+    "topics": [
+      "working memory",
+      "fNIRS",
+      "eye tracking"
+    ],
+    "project": "colour",
+    "firstAuthor": true,
+    "image": "paper_cra_figure5.png",
+    "group": "journal",
+    "imageCaption": "Figure 5 · DLPFC-L activation maps across nine background colours, extracted from the published CRA paper.",
+    "award": "",
+    "corresponding": false,
+    "metrics": {
+      "jif": "2.0",
+      "jifYear": 2025,
+      "jifSource": "https://panorama.upv.es/cat/ipublic/source/9379",
+      "casTier": 3,
+      "casTop": false,
+      "casEdition": "2025 upgraded edition",
+      "casSource": "https://www.minicod.com/journals/color-research-application-e1654211",
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "slug": "background-colour-gender-visual-attention",
+    "title": "Exploring the effects of background colour and gender on cognitive performance of visual attention: A multimodal approach using fNIRS and eye-tracking",
+    "authors": [
+      "Lina Xu",
+      "Bojing Hou",
+      "Xingkai Wang",
+      "Zhongyue Zhang",
+      "Luwen Yu"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "Journal of the International Colour Association",
+    "details": "38, 30–40",
+    "doi": "10.82019/JAIC.3804",
+    "selected": false,
+    "contribution": "Combines fNIRS and eye tracking to examine visual-attention performance across background-colour conditions.",
+    "topics": [
+      "visual attention",
+      "fNIRS",
+      "eye tracking"
+    ],
+    "project": null,
+    "firstAuthor": true,
+    "image": "paper_jaic_figure5.jpg",
+    "group": "journal",
+    "imageCaption": "Figure 5 · Male and female activation maps under the orange background condition, extracted from the published JAIC paper.",
+    "award": "",
+    "corresponding": true
+  },
+  {
+    "slug": "photo-reminiscence-older-adults",
+    "title": "Understanding and co-designing photo-based reminiscence with older adults",
+    "authors": [
+      "Zhongyue Zhang",
+      "Lina Xu",
+      "Xingkai Wang",
+      "Xu Zhang",
+      "Mingming Fan"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction",
+    "details": "9(2), CSCW196 · CSCW 2025",
+    "doi": "10.1145/3711094",
+    "selected": true,
+    "contribution": "Uses participatory inquiry and co-design to understand photo-based reminiscence with older adults.",
+    "topics": [
+      "older adults",
+      "co-design",
+      "reminiscence"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "CSCW_concepts",
+    "group": "journal",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false,
+    "metrics": {
+      "jif": "4.9",
+      "jifYear": 2025,
+      "jcrQuartile": "Q1",
+      "jcrDataYear": 2025,
+      "jifSource": "https://medium.com/sigchi/pacmhci-receives-first-impact-factor-b6391fc2fd4e",
+      "quartileSource": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf",
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "slug": "tailored-information-display",
+    "title": "Tailored information display: Effects of background colour and line spacing on visual search across different character types—An eye-tracking study",
+    "authors": [
+      "Xingkai Wang",
+      "Bingyuan Wang",
+      "Lina Xu",
+      "Luwen Yu"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "Displays",
+    "details": "88, 103019",
+    "doi": "10.1016/j.displa.2025.103019",
+    "selected": false,
+    "contribution": "Tests how background colour and line spacing affect visual search across character types using eye tracking.",
+    "topics": [
+      "visual search",
+      "eye tracking",
+      "information display"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "pub_displays",
+    "group": "journal",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false,
+    "metrics": {
+      "jif": "3.9",
+      "jifYear": 2025,
+      "jcrQuartile": "Q2",
+      "jcrDataYear": 2025,
+      "jifSource": "https://www.minicod.com/journals/displays-bffc9834",
+      "quartileSource": "https://www.minicod.com/journals/displays-bffc9834",
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "slug": "digital-text-information-processing",
+    "title": "How background colour shapes digital text-information processing: A fNIRS-eye tracking study",
+    "authors": [
+      "Xingkai Wang",
+      "Lina Xu",
+      "Jiawei Li",
+      "Chen Cheng",
+      "Luwen Yu"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "International Journal of Human-Computer Interaction",
+    "details": "42(3), 1427–1441",
+    "doi": "10.1080/10447318.2025.2524491",
+    "selected": false,
+    "contribution": "Studies digital text processing through synchronised fNIRS and eye-tracking evidence.",
+    "topics": [
+      "digital reading",
+      "fNIRS",
+      "eye tracking"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "IJHCI_behaviour",
+    "group": "journal",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": true,
+    "metrics": {
+      "jif": "6.1",
+      "jifYear": 2025,
+      "jcrQuartile": "Q1",
+      "jcrDataYear": 2025,
+      "jifSource": "https://www.tandfonline.com/action/journalInformation?journalCode=hihc20&show=aimsScope",
+      "quartileSource": "https://www.tandfonline.com/action/journalInformation?journalCode=hihc20&show=aimsScope",
+      "checkedOn": "2026-10-27"
+    }
+  },
+  {
+    "slug": "new-fomo",
+    "title": "The new fear of missing out (FOMO): Reflecting on the human impact of overly positive social media through interactive installation",
+    "authors": [
+      "Lina Xu",
+      "Haichuan Lin",
+      "Menglu Wang",
+      "Meng Nie"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "Human-Computer Interaction & Emerging Technologies",
+    "details": "195, 190–201",
+    "doi": "10.54941/ahfe1006237",
+    "selected": false,
+    "contribution": "Uses an interactive installation to reflect on human impacts of overly positive social-media presentation.",
+    "topics": [
+      "social media",
+      "interactive installation",
+      "FOMO"
+    ],
+    "project": "fomo",
+    "firstAuthor": true,
+    "image": "fomo_install",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "reading-background-colour-gender",
+    "title": "The effect of reading background colour on human cognitive performance based on multimodal data analysis: A study of gender differences",
+    "authors": [
+      "Lina Xu",
+      "Dehan Jia",
+      "Zhongyue Zhang",
+      "Leyan Huang",
+      "Guobin Xia",
+      "Luwen Yu"
+    ],
+    "year": "2024",
+    "status": "Published",
+    "venue": "Proceedings of the International Colour Association Conference",
+    "details": "159–162",
+    "doi": "",
+    "selected": false,
+    "contribution": "Examines background-colour effects on cognitive performance using multimodal measures, including differences by gender.",
+    "topics": [
+      "reading interfaces",
+      "multimodal data",
+      "Best Paper Award"
+    ],
+    "project": null,
+    "firstAuthor": true,
+    "image": "paper_aic2024_figure2.jpg",
+    "group": "conference",
+    "imageCaption": "Figure 2 · FPA-L and DLPFC-R channel locations, cognitive functions and the original statistical-results panel, extracted from the AIC 2024 paper.",
+    "award": "Best Paper Award · AIC 2024",
+    "corresponding": false
+  },
+  {
+    "slug": "smart-building-acceptance",
+    "title": "A systematic review of smart building acceptance based on user experience",
+    "authors": [
+      "Lina Xu"
+    ],
+    "year": "2023",
+    "status": "Published",
+    "venue": "Human Factors in Architecture, Sustainable Urban Planning and Infrastructure",
+    "details": "89, 16–25",
+    "doi": "10.54941/ahfe1003675",
+    "contribution": "Synthesises user-experience perspectives on acceptance of smart buildings.",
+    "project": null,
+    "firstAuthor": true,
+    "image": "pub_smartbuilding",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "medical-students-llm-clinical-skills",
+    "title": "‘I wouldn’t really use it as a practice tool’: Understanding medical students’ perspectives and needs on LLM-enhanced clinical skills training",
+    "authors": [
+      "Yuru Huang",
+      "Chao Liu",
+      "Yunna Cai",
+      "Lina Xu",
+      "Yun Hou",
+      "Mingming Fan"
+    ],
+    "year": "2026",
+    "status": "Published",
+    "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+    "details": "CHI 2026, Article 908",
+    "doi": "10.1145/3772318.3790322",
+    "selected": true,
+    "contribution": "Surfaces medical students’ perspectives and requirements for responsible LLM-enhanced clinical-skills training.",
+    "topics": [
+      "LLM user research",
+      "medical education",
+      "CHI"
+    ],
+    "project": "clinical",
+    "firstAuthor": false,
+    "image": "clinical_workflow",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "reminiscence-technologies-review",
+    "title": "From memory to meaning: A systematic review of reminiscence technologies in HCI",
+    "authors": [
+      "Zhongyue Zhang",
+      "Mingqing Xu",
+      "Mengyang Wang",
+      "Lina Xu",
+      "Xu Zhang",
+      "Mingming Fan"
+    ],
+    "year": "2026",
+    "status": "Published",
+    "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+    "details": "CHI 2026, Article 1016",
+    "doi": "10.1145/3772318.3791453",
+    "selected": false,
+    "contribution": "Reviews how HCI systems support reminiscence and meaning-making across technology contexts.",
+    "topics": [
+      "reminiscence",
+      "systematic review",
+      "CHI"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "review_cue",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "decoding-cognitive-load",
+    "title": "Decoding cognitive load: Eye-tracking insights into working memory and visual attention",
+    "authors": [
+      "Xiaofu Jin",
+      "Yunpeng Bai",
+      "Lina Xu",
+      "Shuai Ma",
+      "Danqing Shi",
+      "Luwen Yu",
+      "Mingming Fan"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "Proceedings of the 2025 Symposium on Eye Tracking Research and Applications",
+    "details": "1–7",
+    "doi": "10.1145/3715669.3725864",
+    "selected": false,
+    "contribution": "Investigates eye-tracking indicators of cognitive load across working-memory and visual-attention tasks.",
+    "topics": [
+      "cognitive load",
+      "working memory",
+      "ETRA"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "pub_etra",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "generative-multisensory-meditation",
+    "title": "Generative multi-sensory meditation: Exploring immersive depth and activation in virtual reality",
+    "authors": [
+      "Yuyang Jiang",
+      "Binzhu Xie",
+      "Lina Xu",
+      "Xiaokang Lei",
+      "Shi Qiu",
+      "Luwen Yu",
+      "Pan Hui"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "Proceedings of the 33rd ACM International Conference on Multimedia",
+    "details": "9186–9195",
+    "doi": "10.1145/3746027.3754580",
+    "selected": false,
+    "contribution": "Explores immersive depth and activation in a generative multi-sensory virtual-reality meditation context.",
+    "topics": [
+      "virtual reality",
+      "multisensory interaction",
+      "ACM MM"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "MM_VR_pipeline",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "comments-pusher",
+    "title": "Emotional computation in social media—Comments Pusher",
+    "authors": [
+      "Wenqiu Xu",
+      "Yuyang Jiang",
+      "Yi Zhang",
+      "Xiaofan Ruan",
+      "Xiong Gao",
+      "Lina Xu",
+      "Yuyang Wang",
+      "Pan Hui"
+    ],
+    "year": "2025",
+    "status": "Published",
+    "venue": "Proceedings of the International Symposium on Electronic/Emerging Art",
+    "details": "598–605",
+    "doi": "10.23362/KOEN2025.07.25.1.078",
+    "selected": false,
+    "contribution": "A research collaboration examining emotional computation and social-media comments; no claim of Lina independently developing the NLP model is made.",
+    "topics": [
+      "social media",
+      "emotional computation",
+      "ISEA"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "pub_comments",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "cues-in-color",
+    "title": "Cues in color: May profile image imply users’ personality traits?",
+    "authors": [
+      "Leyan Huang",
+      "Rongjin Tian",
+      "Yaqing Cai",
+      "Yuxuan Bai",
+      "Lina Xu",
+      "Pan Hui",
+      "Luwen Yu"
+    ],
+    "year": "2024",
+    "status": "Published",
+    "venue": "Proceedings of the International Colour Association Conference",
+    "details": "",
+    "doi": "",
+    "selected": false,
+    "contribution": "Examines how colour cues in profile imagery relate to perceived personality traits.",
+    "topics": [
+      "profile images",
+      "colour cues",
+      "personality perception"
+    ],
+    "project": null,
+    "firstAuthor": false,
+    "image": "pub_traits",
+    "group": "conference",
+    "imageCaption": "Research visual from the author-supplied materials for this paper.",
+    "award": "",
+    "corresponding": false
+  },
+  {
+    "slug": "task-sensitive-background-colour",
+    "title": "Background colour as a task-sensitive interface parameter: Divergences among behavioural performance, physiological cost, and user preference",
+    "authors": [
+      "Lina Xu",
+      "Wenan Li",
+      "Xingkai Wang",
+      "Chen Cheng",
+      "Zhenhong Li",
+      "Luwen Yu"
+    ],
+    "year": "Under review",
+    "status": "Revised manuscript under review",
+    "venue": "International Journal of Human-Computer Studies",
+    "details": "",
+    "doi": "",
+    "selected": false,
+    "contribution": "Examines why behavioural performance, physiological cost, and stated preference should be evaluated as distinct signals in adaptive interfaces.",
+    "topics": [
+      "adaptive interfaces",
+      "fNIRS",
+      "eye tracking"
+    ],
+    "project": null,
+    "firstAuthor": true,
+    "image": "paper_ijhcs_figure11.jpeg",
+    "group": "review",
+    "imageCaption": "Figure 11 · Prospective CPA-informed implementation architecture.",
+    "award": "",
+    "corresponding": false
+  }
+]
