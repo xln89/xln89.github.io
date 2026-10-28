@@ -35,7 +35,17 @@ function renderWorks(projects,category='All'){
  const featured=$('#featured-projects');if(featured)featured.innerHTML=projects.filter(p=>p.kind==='Design'&&p.featured).sort((a,b)=>a.featuredOrder-b.featuredOrder).map(workCard).join('');
  const all=$('#all-projects');if(all){const list=projects.filter(p=>p.kind==='Design'&&(category==='All'||p.category===category));all.innerHTML=list.map(workCard).join('');const counter=$('#archive-count');if(counter)counter.textContent=`${list.length} projects${category==='All'?'':' / '+category}`;}
 }
-function renderTeaching(projects){const root=$('#teaching-cases');if(!root)return;root.innerHTML=projects.filter(p=>p.kind==='Teaching').map((p,i)=>`<article class="course-feature"><div><a class="course-cover" href="${projectUrl(p.id)}"><img src="${image(p.image)}" alt="${esc(p.credit)}" loading="lazy" width="1000" height="650"></a></div><div class="course-copy"><p class="eyebrow">0${i+1} / UNDERGRADUATE MODULE</p><h3>${esc(p.title)}</h3><p>${esc(p.intro)}</p><p class="course-credit">${esc(p.credit)}</p><div class="course-student-links" aria-label="Selected student projects">${(p.studentCases||[]).map(c=>`<a href="${projectUrl(p.id)}#student-${esc(c.id)}">${esc(c.student)} ↗</a>`).join('')}</div><a class="text-link" href="${projectUrl(p.id)}">View ${p.studentCases?.length||''} student projects & course case →</a></div></article>`).join('');}
+const featuredStudents=[{"course": "ui-teaching", "case": "s357", "image": "S357_extra_24", "title": "Icons & Phone-Theme System", "treatment": "blue"}, {"course": "app-teaching", "case": "s142", "image": "student_S142_outcome.png", "title": "Lifestyle & Coffee Discovery", "treatment": "paper"}, {"course": "web-teaching", "case": "s455", "image": "web_duan_bottom", "title": "Fashion Website & Visual Storytelling", "treatment": "paper"}, {"course": "app-teaching", "case": "s031", "image": "student_S031_outcome.jpg", "title": "Photography Community App", "treatment": "charcoal"}, {"course": "ui-teaching", "case": "s412", "image": "student_S412_outcome.jpg", "title": "Illustrated Screen System", "treatment": "lilac portrait"}, {"course": "ui-teaching", "case": "s416", "image": "student_S416_outcome.jpg", "title": "Expressive Screen & Icon Studies", "treatment": "mint portrait"}];
+function renderTeaching(projects){
+ const root=$('#teaching-cases');if(!root)return;
+ root.innerHTML=featuredStudents.map(feature=>{
+  const course=projects.find(p=>p.id===feature.course),student=course?.studentCases.find(c=>c.id===feature.case);
+  if(!student)throw Error('Missing selected student project: '+feature.case);
+  return `<article class="selected-student-card" data-student="${esc(student.id)}"><button type="button" class="selected-student-image ${esc(feature.treatment)}" data-image="${image(feature.image)}" data-caption="${esc(student.student)} · ${esc(feature.title)} · ${esc(course.title)}" aria-label="Enlarge ${esc(feature.title)}"><img src="${image(feature.image)}" alt="${esc(feature.title)} — student project by ${esc(student.student)}" loading="lazy"></button><div class="selected-student-meta"><p>${esc(course.title)}</p><h4>${esc(feature.title)}</h4></div></article>`;
+ }).join('');
+ bindViewer();
+}
+
 function studentShowcase(cases){
  if(!cases?.length)return '';
  return `<section class="student-showcase" aria-labelledby="student-work-title"><div class="student-showcase-heading"><div><p class="eyebrow">STUDENT WORK / INSTRUCTOR: LINA XU</p><h2 id="student-work-title">Selected student projects</h2></div></div><nav class="student-jump-links" aria-label="Student projects">${cases.map(c=>`<a href="#student-${esc(c.id)}">${esc(c.student)} →</a>`).join('')}</nav>${cases.map((c,i)=>`<article class="student-case ${c.layout==='phone'?'phone-case':''}" id="student-${esc(c.id)}"><div class="student-case-heading"><div><p class="eyebrow">0${i+1} / ${esc(c.student)}</p><h3>${esc(c.title)}</h3></div><p>${esc(c.focus)}</p></div>${gallery(c.images)}</article>`).join('')}</section>`;
@@ -80,18 +90,18 @@ function renderCv(pubs){$('#page-content').innerHTML=`<div class="cv-summary"><p
     </div>
   </div>
   <div class="academic-records-grid">
-    <section aria-labelledby="honours-title"><h3 class="recognition-heading" id="honours-title">Awards & Recognition</h3>
-      <article class="academic-record award-record"><span class="record-year">2024</span><div><h4>Best Paper Award</h4><p>International Colour Association Conference</p><a class="record-link" href="publication.html?id=reading-background-colour-gender">View the paper →</a></div></article>
+    <section aria-labelledby="honours-title"><h3 class="recognition-heading" id="honours-title">Awards &amp; Recognition</h3>
+      <article class="academic-record award-record"><span class="record-year">2024</span><div><h4>Best Paper Award</h4><p>International Colour Association Conference</p></div></article>
       <article class="academic-record"><span class="record-year">2022</span><div><h4>Outstanding Instructor Award</h4><p>Sichuan Original Animation Competition</p></div></article>
-      <article class="academic-record"><span class="record-year">2025</span><div><h4>Certificate of Appreciation</h4><p>First Sino-Arab Innovation & Entrepreneurship Forum</p></div></article>
+      <article class="academic-record"><span class="record-year">2025</span><div><h4>Certificate of Appreciation</h4><p>First Sino-Arab Innovation &amp; Entrepreneurship Forum</p></div></article>
       <article class="academic-record"><span class="record-year">2024</span><div><h4>Certificate of Recognition</h4><p>HKUST(GZ) Computational Media and Arts visual identity</p></div></article>
     </section>
-    <section aria-labelledby="funding-title"><h3 id="funding-title">Research Funding & Mobility</h3>
-      <article class="funding-record"><p class="record-kicker">RESEARCH CONTRIBUTOR · JUN 2025 – JUN 2026</p><h4>Guangdong Basic and Applied Basic Research Funding</h4><p class="record-date">Project AGP2024M0022</p><p class="record-detail">Contributed to cognitive experiments, multimodal analysis and interpretable modelling.</p></article>
-      <article class="funding-record"><p class="record-kicker">CSC FUNDING AWARDED · FORTHCOMING VISIT</p><h4>Visiting PhD Research Practicum</h4><p>UNSW Sydney · Host: Prof. Benjamin Tag</p><p class="record-detail">Human-centred sensing and personalised interaction.</p></article>
-      <div class="academic-service"><h3>Academic Service</h3><p>Peer reviewer for ACM CHI, <i>Educational Technology Research and Development</i>, <i>International Journal of Human–Computer Interaction</i> and <i>Journal of Computer Assisted Learning</i>.</p></div>
+    <section aria-labelledby="funding-title"><h3 id="funding-title">Research Funding &amp; Mobility</h3>
+      <article class="academic-record funding-record"><span class="record-year">2025–26</span><div><p class="record-kicker">RESEARCH CONTRIBUTOR · JUN 2025 – JUN 2026</p><h4>Guangdong Basic and Applied Basic Research Funding</h4><p class="record-date">Project AGP2024M0022</p><p class="record-detail">Contributed to cognitive experiments, multimodal analysis and interpretable modelling.</p></div></article>
+      <article class="academic-record funding-record"><span class="record-year">2026</span><div><p class="record-kicker">CSC FUNDING AWARDED · FORTHCOMING VISIT</p><h4>Visiting PhD Research Practicum</h4><p>UNSW Sydney · Host: Prof. Benjamin Tag</p><p class="record-detail">Human-centred sensing and personalised interaction.</p></div></article>
     </section>
   </div>
+  <div class="academic-service"><h3>Academic Service</h3><p>Peer reviewer for ACM CHI, <i>Educational Technology Research and Development</i>, <i>International Journal of Human–Computer Interaction</i> and <i>Journal of Computer Assisted Learning</i>.</p></div>
 </section>
 <section><h2>Publications</h2><div id="publication-list"></div></section></div>`;renderPublications(pubs);$('#print-cv')?.addEventListener('click',()=>window.print());}
 async function start(){setupNavigation();try{
