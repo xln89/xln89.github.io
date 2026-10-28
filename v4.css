@@ -27,9 +27,6 @@
 .academic-records-grid .recognition-heading{font-size:17px;font-weight:500;color:var(--muted)}
 .academic-records-grid section[aria-labelledby="honours-title"] h4{font-weight:400;color:var(--ink);font-size:14px}
 .academic-records-grid section[aria-labelledby="honours-title"] .record-year{color:var(--muted)}
-.institution-experience{display:grid;grid-template-columns:76px minmax(0,1fr);gap:21px;align-items:start}
-.institution-experience .sumc-mark{display:flex;align-items:center;justify-content:center;width:76px;height:76px;margin-top:3px}
-.institution-experience .sumc-mark img{width:66px;height:66px;object-fit:contain;max-width:100%}
 @media(max-width:700px){.research-interests{grid-template-columns:1fr;gap:10px;padding-block:19px}.research-interests li{font-size:12px}.research-interests li:not(:last-child)::after{margin-inline:9px}.news-section{padding-block:31px 24px}.news-section h2{font-size:29px}.news-item{grid-template-columns:85px minmax(0,1fr);gap:17px;padding-block:17px}.news-item time{font-size:11px}.news-item p{font-size:13px}.news-archive summary{font-size:12px}}
 .bio{font-size:14.5px;line-height:1.85}.bio strong,.focus-panel strong{font-weight:600;color:var(--ink)}
 .focus-panel h2{font-size:25px;line-height:1.3;min-height:65px}
