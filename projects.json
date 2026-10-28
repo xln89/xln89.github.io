@@ -78,7 +78,7 @@
     "title": "Medical students & LLM-supported learning",
     "short": "Understanding needs before prescribing an AI learning tool.",
     "meta": "CHI 2026 · Collaborative research",
-    "role": "Interviews and co-design, study work, analysis, interface-related work and research illustrations. Fourth author. System implementation was outside my role.",
+    "role": "Interviews and co-design, study work, analysis, interface-related work and research illustrations. Fourth author.",
     "intro": "A collaborative inquiry into medical students’ perspectives and needs around LLM-enhanced clinical skills training, combining five learning probes, interviews and co-design with 14 medical students.",
     "question": "What prevents medical students from treating language models as meaningful tools for clinical skills practice?",
     "approach": "Study probes support discussion of students’ expectations and concerns. Co-design sketches make requirements around structured responses, controllable detail, highlighting and evidence visibility concrete.",
@@ -476,8 +476,8 @@
     "kind": "Design",
     "category": "Interaction",
     "title": "Parallel Space",
-    "short": "Collaborative remote puzzle · UAL · 2020",
-    "meta": "Collaborative remote puzzle · UAL · 2020",
+    "short": "Collaborative remote puzzle · Winter 2020",
+    "meta": "London arts festival exhibition · Winter 2020",
     "role": "Full-process participation within a six-person team, spanning shared concept, visual world-building, interaction and prototyping.",
     "intro": "A two-player remote puzzle in which separate rooms and incomplete information make communication the key to progressing together.",
     "image": "parallel_40",
@@ -777,12 +777,7 @@
     "approach": "Concept and audience → content and navigation → low-fidelity prototype → visual interface and interaction → presentation. Teaching includes explanations, demonstrations, studio discussion and project guidance.",
     "image": "student_S142_outcome.png",
     "credit": "Selected student work · Course instructor: Lina Xu · Individual authors credited below",
-    "gallery": [
-      [
-        "lesson_goals",
-        "Excerpt from Lina Xu’s original App Design lesson plan."
-      ]
-    ],
+    "gallery": [],
     "assessment": "Independent project assessment. The available concept, prototype and presentation submissions support discussion of information structure, interface consistency and the explanation of design decisions. No grade weights or measured learning gains are inferred.",
     "studentCases": [
       {
