@@ -7,7 +7,7 @@
 .research-interests{display:grid;grid-template-columns:160px minmax(0,1fr);gap:25px;align-items:baseline;padding-block:22px;border-block:1px solid var(--line)}
 .research-interests h2{font-size:11px;line-height:1.8;letter-spacing:.12em}
 .research-interests ul{display:flex;flex-wrap:wrap;gap:8px 0;list-style:none;margin:0;padding:0}
-.research-interests li{font-size:13px;line-height:1.8;font-weight:500;color:var(--ink)}
+.research-interests li{font-size:13px;line-height:1.8;font-weight:600;color:var(--ink)}
 .research-interests li:not(:last-child)::after{content:'/';display:inline-block;margin-inline:13px;color:#cbb6bf;font-weight:400}
 .news-section{padding-block:43px 34px}
 .news-section .section-heading{margin-bottom:22px;align-items:end}
